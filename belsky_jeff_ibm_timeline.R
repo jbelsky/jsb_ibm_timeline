@@ -1,8 +1,11 @@
-png(file = "c:/Users/jabel/Desktop/dad_logos/timeline.png",
+# Read in the employment record of the family-members
+
+
+png(file = "timeline.png",
     width = 16, height = 7.5, units = "in", res = 300
     )
 
-initial_mai = par()$mai
+# initial_mai = par()$mai
 
 par(mai = c(0.75, 0.2, 0.1, 0.2))
 
